@@ -43,3 +43,7 @@ float Car::getFuel(){
 void Car::addFuel(int gallons) {
   _fuel += gallons;
 }
+
+Car::~Car(){
+  cout << "Inside the destructor. Cleaning up object" << endl;
+}

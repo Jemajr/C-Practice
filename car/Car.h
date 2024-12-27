@@ -7,6 +7,7 @@ class Car {
 public:
   // the constructor
   Car(string paint, string brand, string model, int fuel);
+  ~Car(); // adding the destructor
   // member functions
   void driveCar(int miles);
   void setPaint(string color);

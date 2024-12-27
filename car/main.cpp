@@ -14,7 +14,7 @@ int main(){
   // changing the paint color
   car.setPaint("black"); // setter
 
-  cout << "Paint color: " << car.getPaint();
+  cout << "Paint color: " << car.getPaint() << endl;
 
   return 0;
 }
