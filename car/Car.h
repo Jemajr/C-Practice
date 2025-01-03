@@ -8,7 +8,7 @@ public:
   // the constructor
   Car(); // default constructor with no parameters
   Car(string paint, string brand, string model, int fuel);
-  Car(Car &obj);
+  Car(Car &obj); // this is the copy constructor
   ~Car(); // adding the destructor
   // member functions
   void driveCar(int miles);
