@@ -24,6 +24,7 @@ int main(){
   shared_ptr<Something> sp1 = make_shared<Something>();
   shared_ptr<Something> sp2 = sp1; // sp2 points to the same address as sp1. Interesting stuff!
 
+  weak_ptr<Something> wp1; // weak pointer syntax
 
   return 0;
 }
